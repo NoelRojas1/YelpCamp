@@ -39,7 +39,7 @@ mongoose.connect(dbUrl || "mongodb://localhost:27017/yelp-camp", {
 })
 
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const store = MongoDBStore.create({
     mongoUrl: dbUrl,
     secret: process.env.SESSION_SECRET || "thisissecret",
