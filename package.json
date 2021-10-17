@@ -34,7 +34,4 @@
     "passport-local-mongoose": "^6.1.0",
     "sanitize-html": "^2.5.1"
   },
-  "engines": {
-    "npm": "6.0.9"
-  }
 }
