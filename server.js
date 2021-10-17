@@ -19,7 +19,6 @@ const userRouter = require("./routes/userRoutes");
 const MongoDBStore = require("connect-mongo");
 
 const dbUrl = process.env.DB_URL;
-
 //In order to make use of "passport" we need to configure it as follows:
 const User = require("./models/userModel");
 const passport = require("passport");
